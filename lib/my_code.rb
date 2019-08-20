@@ -2,7 +2,6 @@
   
   
 def map_function(array)
-  
   yield(array)
   array
 end
