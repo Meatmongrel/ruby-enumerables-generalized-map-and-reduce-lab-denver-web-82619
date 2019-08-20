@@ -11,10 +11,10 @@ def map(array)
   return new
 end
 
-def reduce(array)
-  new = []
-  i = 0
-  while i < array.length do
+def reduce(array, sv=nil)
+  # new = []
+  # i = 0
+  # while i < array.length do
     
-  end
+  # end
 end
