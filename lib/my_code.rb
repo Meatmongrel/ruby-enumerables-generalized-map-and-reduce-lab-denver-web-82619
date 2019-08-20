@@ -2,8 +2,11 @@
   
   
 def map_function(array)
-  yield(array)
-  array
+  new = []
+  i = 0
+  while i < array.length do
+    
+  end
 end
 
 map_function do |arr|
