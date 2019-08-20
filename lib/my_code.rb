@@ -8,5 +8,5 @@ def map_function(array)
     new.push(yield(array[i]))
     i++
   end
-  new
+  return new
 end
