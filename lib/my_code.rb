@@ -12,11 +12,15 @@ def map(array)
 end
 
 def reduce(array, sv=nil)
-  # new = []
-  # i = 0
-  # while i < array.length do
+  if sv
+    num = sv
+    i = 0
+  else
+    num = array[0]
+    i = 1
+  end
+  while i < array.length do
     
-  # end
-  yield(array, sv)
-  array
+    i += 1
+  end
 end
