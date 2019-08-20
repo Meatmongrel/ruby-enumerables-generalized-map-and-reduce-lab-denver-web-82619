@@ -10,8 +10,3 @@ def map_function(array)
   end
   new
 end
-
-map_function do |arr|
-  new = arr.map { |x| x * -1}
-  puts new
-end
