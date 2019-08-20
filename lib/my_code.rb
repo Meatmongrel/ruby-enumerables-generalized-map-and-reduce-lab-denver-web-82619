@@ -1,7 +1,7 @@
 # Your Code Here
   
   
-def map_function(array)
+def map(array)
   new = []
   i = 0
   while i < array.length do
